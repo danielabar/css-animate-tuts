@@ -1,0 +1,54 @@
+body {
+  background-color: #333745;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  /* font-weight: 100; */
+  font-size: 1.5em;
+  color: #DAEDE2;
+}
+
+.wrap {
+  width: 900px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animate {
+  float: left;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  background-color: #EA2BCB;
+  border: 1px solid #EA2BCB;
+  border-radius: 0;
+  box-shadow: 3px 3px 6px #A2859F;
+  margin: 10px;
+  text-align: center;
+  transition: transform 1s ease, box-shadow 0.5s ease, border-radius 0.3s ease;
+}
+
+.rotate:hover {
+  transform: rotate(360deg);
+  box-shadow: 3px 3px 26px #A2859F;
+  border-radius: 360px;
+}
+
+.rotateX:hover {
+  transform: rotateX(360deg);
+  box-shadow: 3px 3px 26px #A2859F;
+}
+
+.rotateY:hover {
+  transform: rotateY(360deg);
+  box-shadow: 3px 3px 26px #A2859F;
+}
+
+.rotateZ:hover {
+  transform: rotateZ(360deg);
+  box-shadow: 3px 3px 26px #A2859F;
+}
+
+.rotateXYZ:hover {
+  transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  box-shadow: 3px 3px 26px #A2859F;
+}
