@@ -1,0 +1,37 @@
+body {
+  background-color: #333745;
+}
+
+.wrap {
+  width: 500px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animate-this {
+  float: left;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: #EA2BCB;
+  margin: 10px;
+  transition: transform 0.5s ease;
+}
+
+.animate-this:hover {
+  transform: rotate(90deg);
+}
+
+.box-content {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  color: #DAEDE2;
+  margin: 0 auto;
+  width: 50%;
+  height: 200px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
