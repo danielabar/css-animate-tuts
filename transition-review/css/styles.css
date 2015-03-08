@@ -9,7 +9,7 @@ body {
   margin-right: auto;
 }
 
-.animate-this {
+.box {
   float: left;
   display: inline-block;
   height: 200px;
@@ -19,8 +19,12 @@ body {
   transition: transform 0.5s ease;
 }
 
-.animate-this:hover {
+.ninety:hover {
   transform: rotate(90deg);
+}
+
+.one-eighty:hover {
+  transform: rotate(180deg);
 }
 
 .box-content {
