@@ -1,13 +1,17 @@
+Advanced CSS3 Animations
+==========
+
+> Learning [CSS3 Animations] with Tuts Plus [course](https://webdesign.tutsplus.com/courses/advanced-css3-animations).
+
 ## Transition
 
-Animation that occurs in response to change of state. Most commonly used on hover.
+[Demo](http://codepen.io/danielabar/pen/Eaevjx)
 
-For example, anchor tag that is styled like a button,
-and would like button to grow larger when user hovers over it.
+Animation that occurs in response to change of state. Most commonly used on `hover`.
 
-`hover` is a change of state so that would cause a transition/animation to occur.
+For example, anchor tag that is styled like a button, and would like button to grow larger when user hovers over it.
 
-To create an animation type of transition
+To create an animation type of transition:
 
 * Define what property is going to be animated, for example
   ```css
@@ -32,6 +36,8 @@ To create an animation type of transition
   ```
 
 ### Transition Shorthand Syntax
+
+[Demo](http://codepen.io/danielabar/pen/qEMVBL)
 
   ```
   .box {
