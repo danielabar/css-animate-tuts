@@ -14,15 +14,20 @@ For example, anchor tag that is styled like a button, and would like button to g
 To create an animation type of transition:
 
 * Define what property is going to be animated, for example
+
   ```css
   transition-property: width;
   ```
+
 * Define how long animation will take in terms of seconds, for example
-  ```
+
+  ```css
   transition-duration: 0.3s;
   ```
+
 * Define beginning and ending values for that animation, for example
-  ```
+
+  ```css
   .top-nav li {
     /* Beginning state of animation is width of 150px */
     width: 150px;
