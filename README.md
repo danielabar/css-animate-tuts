@@ -61,7 +61,7 @@ To create an animation type of transition:
 
 ## 3D Transform
 
-[HTML](transform-3d/transition-primer.html) | [CSS](transform-3d/styles.css) | Demo TBD...
+[HTML](transform-3d/transition-primer.html) | [CSS](transform-3d/styles.css) | [Demo](http://codepen.io/danielabar/pen/wBEyMb)
 
 If no axis is specified, rotate operates in 2D space
 
@@ -102,6 +102,26 @@ Combine all axes for a full 3D transformation
     transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
   }
   ```
+
+## Perspective
+
+[HTML](portfolio/index02.html) | [CSS](portfolio/portfolio02.css)
+
+Works together with transform
+
+  ```CSS
+  perspective: 500px;
+  ```
+
+Translate - move in 3D space, for example, move forward by 60 pixels
+
+  ```CSS
+  transform: translateZ(60px);
+  ```
+
+## Animate Perspective on Hover
+
+[HTML](portfolio/index03.html) | [CSS](portfolio/portfolio03.css)
 
 ## Animation
 
