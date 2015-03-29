@@ -123,7 +123,46 @@ Translate - move in 3D space, for example, move forward by 60 pixels
 
 [HTML](portfolio/index03.html) | [CSS](portfolio/portfolio03.css)
 
-## Animation
+## CSS Animation Review
+
+[HTML](animation-review/animationReview.html) | [CSS](animation-review/animationPrimer.css)
 
 Occurs as browser loads, can be more flexible than a transition.
 Can loop, add multiple keyframes etc.
+
+Whereas transitions typically occur on hover, animation, by default occurs as soon as browser loads.
+
+Two different types of animation:
+
+1. Goes from one value to a second value
+
+1. Goes from one value to a second value, with a number of _keyframes_ in between
+
+Example of first kind (note still using `keyframes`)
+
+  ```CSS
+  /* Give the animation a name: left-to-right */
+  @keyframes left-to-right {
+
+    /* Define the starting point with 'from' keyword, specifying a css attribute and starting value */
+    from { left: 0; }
+
+    /* Define the ending point with 'to' keyword, specifying a css attribute and ending value */
+    to { left: 400px; }
+  }
+  ```
+
+This animation is then attached to a class to be animated, via the `animation` attribute, for example
+
+  ```CSS
+  .my-box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: #060;
+    animation: left-to-right 2s;
+  }
+
+NOTE: To animate position of an object, must give it an absolute position.
+
+By default, when animation is done, it jumps back to its starting position.

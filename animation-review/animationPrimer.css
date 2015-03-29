@@ -1,0 +1,20 @@
+.animate-this {
+  width: 200px;
+  height: 200px;
+  background-color: #060;
+  position: absolute;
+  /* shorthand version of animation attribute: name, duration */
+  -webkit-animation: left-to-right 2s;
+          animation: left-to-right 2s;
+
+}
+
+@-webkit-keyframes left-to-right {
+  from { left: 0px; }
+  to { left: 400px; }
+}
+
+@keyframes left-to-right {
+  from { left: 0px; }
+  to { left: 400px; }
+}
