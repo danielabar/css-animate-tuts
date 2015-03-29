@@ -1,0 +1,21 @@
+.animate-this {
+  width: 200px;
+  height: 200px;
+  top: 10px;
+  background-color: rgba(60, 220, 55, 0.73);
+  position: absolute;
+  -webkit-animation: left-to-right 2s linear 0s;
+          animation: left-to-right 2s linear 0s;
+}
+
+@-webkit-keyframes left-to-right {
+  0% { left: 0px; top: 0px; }
+  50% { top: 200px; }
+  100% { left: 600px; top: 0px; }
+}
+
+@keyframes left-to-right {
+  0% { left: 0px; top: 0px; }
+  50% { top: 200px; }
+  100% { left: 600px; top: 0px; }
+}

@@ -192,3 +192,29 @@ To define all of the above properties in the shorthand form, they must be define
     -webkit-animation: left-to-right 2s ease 0s infinite alternate;
   }
   ```
+
+## Keyframes In Between
+
+[HTML](in-between/inBetween.html) | [CSS](in-between/inBetween.css)
+
+Can have as many keyframes as you like, instead of `from` and `to`, specify percentages. For example
+
+  ```css
+  @keyframes left-to-right {
+    0% { left: 0px; }
+    50% {left: 600px; }
+    100% { left: 400px; }
+  }
+  ```
+
+Note that multiple properties can be listed inside any of the keyframes. For example, to move down and right at same time
+
+  ```css
+  @keyframes left-to-right {
+    0% { left: 0px; top: 0px; }
+    50% {left: 300px; top: 200px; }
+    100% { left: 600px; top: 0px; }
+  }
+  ```
+
+Technically, don't need to specify `left: 300px` in above example, because it will already be there.
