@@ -218,3 +218,17 @@ Note that multiple properties can be listed inside any of the keyframes. For exa
   ```
 
 Technically, don't need to specify `left: 300px` in above example, because it will already be there.
+
+## Animating Images
+
+When preparing images for animation, leave empty space around the image, for transformations.
+
+Anchor point for css image rotation (or any object) is the center of the object.
+
+To achieve rotation around a different part of the image, make it have empty space around it.
+
+Or could use `transform-origin` css property to change the origin of rotation,
+but it uses percentages and can be tricky to work with.
+
+Place images in html in stacking order, furthest away from camera first.
+Give each image an id so it can be accessed in css for animation.
