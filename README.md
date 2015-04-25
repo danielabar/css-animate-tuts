@@ -256,3 +256,5 @@ Give each image an id so it can be accessed in css for animation.
 
 Move parts "in place" with rotation from left to right,
 while background image moves across, to give illusion of front image "walking".
+
+To animate the fence (background), notice the image is wider than the container, so it can loop around.
