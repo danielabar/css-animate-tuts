@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [Advanced CSS3 Animations](#advanced-css3-animations)
+  - [Transition](#transition)
+    - [Transition Shorthand Syntax](#transition-shorthand-syntax)
+  - [3D Transform](#3d-transform)
+  - [Perspective](#perspective)
+  - [Animate Perspective on Hover](#animate-perspective-on-hover)
+  - [CSS Animation Review](#css-animation-review)
+  - [CSS Animation Properties](#css-animation-properties)
+  - [Keyframes In Between](#keyframes-in-between)
+  - [Animating Images](#animating-images)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Advanced CSS3 Animations
 ==========
 
