@@ -1,0 +1,160 @@
+/*
+*******************************
+* ANIMATION CONTAINER
+*******************************
+*/
+#pig-animation {
+  width: 800px;
+  height: 600px;
+  background: url('../img/background.png') top left no-repeat;
+  border-radius: 30px;
+  margin: 0 auto;  /* center animation horizontally within browser window */
+  margin-top: 10px;
+  position: relative; /* because all the items inside this will be positioned absolutely */
+}
+
+/*
+*******************************
+* Fence Far
+*******************************
+*/
+#fence-far {
+  position: absolute;
+  left: -10px;
+  top: 30px;
+}
+
+/*
+*******************************
+* Fence Near
+*******************************
+*/
+#fence-near {
+  position: absolute;
+  left: -10px;
+  top: 180px;
+}
+
+/*
+*******************************
+* Pig Leg Left Back
+*******************************
+*/
+#pig-leg-left-back {
+  position: absolute;
+  left: 240px;
+  top: 370px;
+}
+
+/*
+*******************************
+* Pig Leg Left Front
+*******************************
+*/
+#pig-leg-left-front {
+  position: absolute;
+  left: 480px;
+  top: 370px;
+}
+
+/*
+*******************************
+* Pig Body
+*******************************
+*/
+#pig-body {
+  position: absolute;
+  left: 160px;
+  top: 275px;
+}
+
+/*
+*******************************
+* Pig Tail
+*******************************
+*/
+#pig-tail {
+  position: absolute;
+  left: 150px;
+  top: 260px;
+}
+
+/*
+*******************************
+* Pig Ear
+*******************************
+*/
+#pig-ear {
+  position: absolute;
+  left: 460px;
+  top: 240px;
+}
+
+/*
+*******************************
+* Pig Leg Right Back
+*******************************
+*/
+#pig-leg-right-back {
+  position: absolute;
+  left: 200px;
+  top: 380px;
+}
+
+/*
+*******************************
+* Pig Leg Right Front
+*******************************
+*/
+#pig-leg-right-front {
+  position: absolute;
+  left: 440px;
+  top: 380px;
+}
+
+/*
+*******************************
+* Leg Animations
+*******************************
+*/
+@keyframes legs1 {
+	from { transform: rotate(-10deg); }
+	to { transform: rotate(10deg); }
+}
+
+@-webkit-keyframes legs1 {
+	from { -webkit-transform: rotate(-10deg); }
+	to { -webkit-transform: rotate(10deg); }
+}
+
+@-moz-keyframes legs1 {
+	from { -moz-transform: rotate(-10deg); }
+	to { -moz-transform: rotate(10deg); }
+}
+
+@keyframes legs2 {
+	from { transform: rotate(10deg); }
+	to { transform: rotate(-10deg); }
+}
+
+@-webkit-keyframes legs2 {
+	from { -webkit-transform: rotate(10deg); }
+	to { -webkit-transform: rotate(-10deg); }
+}
+
+@-moz-keyframes legs2 {
+	from { -moz-transform: rotate(10deg); }
+	to { -moz-transform: rotate(-10deg); }
+}
+
+#pig-leg-right-front, #pig-leg-left-back {
+	animation: legs1 0.5s linear 0s infinite alternate;
+	-webkit-animation: legs1 0.5s linear 0s infinite alternate;
+	-moz-animation: legs1 0.5s linear 0s infinite alternate;
+}
+
+#pig-leg-left-front, #pig-leg-right-back {
+	animation: legs2 0.5s linear 0s infinite alternate;
+	-webkit-animation: legs2 0.5s linear 0s infinite alternate;
+	-moz-animation: legs2 0.5s linear 0s infinite alternate;
+}

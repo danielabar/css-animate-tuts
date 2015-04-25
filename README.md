@@ -238,6 +238,8 @@ Technically, don't need to specify `left: 300px` in above example, because it wi
 
 ## Animating Images
 
+[HTML](pig-animation/index02.html) | [CSS](pig-animation/css/pig02.css)
+
 When preparing images for animation, leave empty space around the image, for transformations.
 
 Anchor point for css image rotation (or any object) is the center of the object.
@@ -249,3 +251,8 @@ but it uses percentages and can be tricky to work with.
 
 Place images in html in stacking order, furthest away from camera first.
 Give each image an id so it can be accessed in css for animation.
+
+### Animation Technique
+
+Move parts "in place" with rotation from left to right,
+while background image moves across, to give illusion of front image "walking".
